@@ -1,5 +1,5 @@
 {
-  "homepage": "http://sherzberg125.github.io/index.js",
+  "homepage": "http://sherzberg125.github.io/sherzberg125.github.io",
   "name": "material-kit-pro-react",
   "version": "1.10.0",
   "private": true,
@@ -28,6 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
