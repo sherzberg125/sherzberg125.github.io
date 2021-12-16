@@ -14,6 +14,7 @@ import Icon from "@material-ui/core/Icon";
 // @material-ui/icons
 import Apps from "@material-ui/icons/Apps";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import ArticleIcon from "@mui/icons-material/Article";
 import ViewDay from "@material-ui/icons/ViewDay";
 import Dns from "@material-ui/icons/Dns";
 import Build from "@material-ui/icons/Build";
@@ -91,7 +92,7 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list + " " + classes.mlAuto}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
+        {/* <CustomDropdown
           noLiPadding
           navDropdown
           hoverColor={dropdownHoverColor}
@@ -118,10 +119,10 @@ export default function HeaderLinks(props) {
               Documentation
             </a>,
           ]}
-        />
+        /> */}
       </ListItem>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
+        {/* <CustomDropdown
           noLiPadding
           navDropdown
           hoverColor={dropdownHoverColor}
@@ -189,14 +190,14 @@ export default function HeaderLinks(props) {
               <Call className={classes.dropdownIcons} /> Contacts
             </Link>,
           ]}
-        />
+        /> */}
       </ListItem>
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           navDropdown
           hoverColor={dropdownHoverColor}
-          buttonText="Examples"
+          buttonText="Pages"
           buttonProps={{
             className: classes.navLink,
             color: "transparent",
@@ -206,55 +207,56 @@ export default function HeaderLinks(props) {
             <Link to="/about-us" className={classes.dropdownLink}>
               <AccountBalance className={classes.dropdownIcons} /> About Us
             </Link>,
-            <Link to="/blog-post" className={classes.dropdownLink}>
-              <ArtTrack className={classes.dropdownIcons} /> Blog Post
-            </Link>,
-            <Link to="/blog-posts" className={classes.dropdownLink}>
-              <ViewQuilt className={classes.dropdownIcons} /> Blog Posts
-            </Link>,
-            <Link to="/contact-us" className={classes.dropdownLink}>
-              <LocationOn className={classes.dropdownIcons} /> Contact Us
-            </Link>,
-            <Link to="/landing-page" className={classes.dropdownLink}>
-              <ViewDay className={classes.dropdownIcons} /> Landing Page
-            </Link>,
-            <Link to="/login-page" className={classes.dropdownLink}>
-              <Fingerprint className={classes.dropdownIcons} /> Login Page
-            </Link>,
-            <Link to="/pricing" className={classes.dropdownLink}>
-              <AttachMoney className={classes.dropdownIcons} /> Pricing Page
-            </Link>,
-            <Link to="/shopping-cart-page" className={classes.dropdownLink}>
-              <ShoppingBasket className={classes.dropdownIcons} /> Shopping Cart
-            </Link>,
-            <Link to="/ecommerce-page" className={classes.dropdownLink}>
-              <Store className={classes.dropdownIcons} /> Ecommerce Page
-            </Link>,
-            <Link to="/product-page" className={classes.dropdownLink}>
-              <ShoppingCart className={classes.dropdownIcons} /> Product Page
-            </Link>,
-            <Link to="/profile-page" className={classes.dropdownLink}>
-              <AccountCircle className={classes.dropdownIcons} /> Profile Page
-            </Link>,
-            <Link to="/signup-page" className={classes.dropdownLink}>
-              <PersonAdd className={classes.dropdownIcons} /> Signup Page
-            </Link>,
-            <Link to="/error-page" className={classes.dropdownLink}>
-              <Error className={classes.dropdownIcons} /> Error Page
-            </Link>,
+            // <Link to="/blog-post" className={classes.dropdownLink}>
+            //   <ArtTrack className={classes.dropdownIcons} /> Blog Post
+            // </Link>,
+            // <Link to="/blog-posts" className={classes.dropdownLink}>
+            //   <ViewQuilt className={classes.dropdownIcons} /> Blog Posts
+            // </Link>,
+            // <Link to="/contact-us" className={classes.dropdownLink}>
+            //   <LocationOn className={classes.dropdownIcons} /> Contact Us
+            // </Link>,
+            // <Link to="/landing-page" className={classes.dropdownLink}>
+            //   <ViewDay className={classes.dropdownIcons} /> Landing Page
+            // </Link>,
+            // <Link to="/login-page" className={classes.dropdownLink}>
+            //   <Fingerprint className={classes.dropdownIcons} /> Login Page
+            // </Link>,
+            // <Link to="/pricing" className={classes.dropdownLink}>
+            //   <AttachMoney className={classes.dropdownIcons} /> Pricing Page
+            // </Link>,
+            // <Link to="/shopping-cart-page" className={classes.dropdownLink}>
+            //   <ShoppingBasket className={classes.dropdownIcons} /> Shopping Cart
+            // </Link>,
+            // <Link to="/ecommerce-page" className={classes.dropdownLink}>
+            //   <Store className={classes.dropdownIcons} /> Ecommerce Page
+            // </Link>,
+            // <Link to="/product-page" className={classes.dropdownLink}>
+            //   <ShoppingCart className={classes.dropdownIcons} /> Product Page
+            // </Link>,
+            // <Link to="/profile-page" className={classes.dropdownLink}>
+            //   <AccountCircle className={classes.dropdownIcons} /> Profile Page
+            // </Link>,
+            // <Link to="/signup-page" className={classes.dropdownLink}>
+            //   <PersonAdd className={classes.dropdownIcons} /> Signup Page
+            // </Link>,
+            // <Link to="/error-page" className={classes.dropdownLink}>
+            //   <Error className={classes.dropdownIcons} /> Error Page
+            // </Link>,
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-navbar"
-          color={window.innerWidth < 960 ? "info" : "white"}
-          target="_blank"
-          className={classes.navButton}
-          round
-        >
-          <ShoppingCart className={classes.icons} /> buy now
-        </Button>
+        <Link to="/signup-page" className={classes.navLink}>
+          <Button
+            color={window.innerWidth < 960 ? "info" : "white"}
+            target="_blank"
+            className={classes.navButton}
+            round
+          >
+            <ArticleIcon className={classes.icons} /> Sign Up now
+          </Button>
+        </Link>
       </ListItem>
     </List>
   );

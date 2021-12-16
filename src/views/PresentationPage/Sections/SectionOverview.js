@@ -57,8 +57,7 @@ export default function SectionOverview() {
                   </p>
                 }
                 icon={KeyboardVoiceIcon}
-                fontSize={50}
-                // Make sure Font Size thing Works
+                // Icon is smaller for some reason and I don't know why
                 iconColor="gray"
                 vertical={true}
               />

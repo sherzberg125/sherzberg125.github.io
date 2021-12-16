@@ -4,7 +4,8 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import ShoppingCart from "@material-ui/icons/ShoppingCart";
+// import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import ArticleIcon from "@mui/icons-material/Article";
 // import Store from "@material-ui/icons/Store";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -26,14 +27,16 @@ export default function SectionPricing() {
             sm={10}
             className={classNames(classes.mlAuto, classes.mrAuto)}
           >
-            <h2 className={classes.title}>Ready to grab NAME HERE</h2>
+            <h2 className={classes.title}>
+              Sign up for NAME HERE to get new info
+            </h2>
             <Button
-              href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-presentation"
+              href="https://sherzberg125.github.io/signup-page"
               color={"primary"}
               target="_blank"
               round
             >
-              <ShoppingCart className={classes.icons} /> Sign Up Now
+              <ArticleIcon className={classes.icons} /> Sign Up Now
             </Button>{" "}
             {/* <Button
               href="https://www.creative-tim.com/product/material-kit-react?ref=mkpr-presentation"

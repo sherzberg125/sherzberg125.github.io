@@ -23,6 +23,7 @@ import SectionServices from "views/AboutUsPage/Sections/SectionServices.js";
 import SectionContact from "views/AboutUsPage/Sections/SectionContact.js";
 
 import aboutUsStyle from "assets/jss/material-kit-pro-react/views/aboutUsStyle.js";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(aboutUsStyle);
 
@@ -35,7 +36,7 @@ export default function AboutUsPage() {
   return (
     <div>
       <Header
-        brand="Company Name Here (Still in progress)"
+        brand="Placeholder Name"
         links={<HeaderLinks dropdownHoverColor="info" />}
         fixed
         color="transparent"
@@ -83,24 +84,20 @@ export default function AboutUsPage() {
           <div>
             <div className={classes.left}>
               <List className={classes.list}>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="https://www.creative-tim.com/?ref=mkpr-about-us"
-                    className={classes.block}
-                    target="_blank"
-                  >
-                    Scott H
-                  </a>
-                </ListItem>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="https://www.creative-tim.com/presentation?ref=mkpr-about-us"
-                    className={classes.block}
-                    target="_blank"
-                  >
-                    About us
-                  </a>
-                </ListItem>
+                <Link to="/">
+                  <ListItem className={classes.inlineBlock}>
+                    <a className={classes.block} target="_blank">
+                      Placeholder Name
+                    </a>
+                  </ListItem>
+                </Link>
+                <Link to="/about-us">
+                  <ListItem className={classes.inlineBlock}>
+                    <a className={classes.block} target="_blank">
+                      About us
+                    </a>
+                  </ListItem>
+                </Link>
                 {/* <ListItem className={classes.inlineBlock}>
                   <a
                     href="//blog.creative-tim.com/"
@@ -110,7 +107,7 @@ export default function AboutUsPage() {
                     Blog
                   </a>
                 </ListItem> */}
-                <ListItem className={classes.inlineBlock}>
+                {/* <ListItem className={classes.inlineBlock}>
                   <a
                     href="https://www.creative-tim.com/license?ref=mkpr-about-us"
                     className={classes.block}
@@ -118,20 +115,20 @@ export default function AboutUsPage() {
                   >
                     Licenses
                   </a>
-                </ListItem>
+                </ListItem> */}
               </List>
             </div>
-            <div className={classes.right}>
+            {/* <div className={classes.right}>
               &copy; {1900 + new Date().getYear()} , made with{" "}
               <Favorite className={classes.icon} /> by{" "}
               <a
                 href="https://www.creative-tim.com?ref=mkpr-about-us"
                 target="_blank"
               >
-                Company Name
+                Placeholder Name
               </a>{" "}
-              Helping you all the time
-            </div>
+              Helping you save time
+            </div> */}
           </div>
         }
       />

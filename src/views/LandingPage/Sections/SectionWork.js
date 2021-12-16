@@ -20,12 +20,10 @@ export default function SectionWork() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={8} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+          <h2 className={classes.title}>Contact Us</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            Contact us with any suggestions or questions and we will get back to
+            you as soon as we can!
           </h4>
           <form>
             <GridContainer>
@@ -65,7 +63,10 @@ export default function SectionWork() {
                 md={4}
                 className={classes.mrAuto + " " + classes.mlAuto}
               >
-                <Button color="primary">Send Message</Button>
+                <Button color="primary" justify="center">
+                  Send Message
+                </Button>
+                {/* Would Like to Make Button Centered */}
               </GridItem>
             </GridContainer>
           </form>

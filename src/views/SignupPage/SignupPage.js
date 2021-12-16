@@ -10,6 +10,9 @@ import ListItem from "@material-ui/core/ListItem";
 import Icon from "@material-ui/core/Icon";
 // @material-ui/icons
 import Timeline from "@material-ui/icons/Timeline";
+import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import SettingsIcon from "@mui/icons-material/Settings";
 import Code from "@material-ui/icons/Code";
 import Group from "@material-ui/icons/Group";
 import Face from "@material-ui/icons/Face";
@@ -31,6 +34,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import signupPageStyle from "assets/jss/material-kit-pro-react/views/signupPageStyle.js";
 
 import image from "assets/img/bg7.jpg";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(signupPageStyle);
 
@@ -56,7 +60,7 @@ export default function SignUpPage({ ...rest }) {
       <Header
         absolute
         color="transparent"
-        brand="Test Brand" // CHANGE NAME HERE
+        brand="Placeholder Name" // CHANGE NAME HERE
         links={<HeaderLinks dropdownHoverColor="rose" />}
         {...rest}
       />
@@ -72,34 +76,34 @@ export default function SignUpPage({ ...rest }) {
           <GridContainer justify="center">
             <GridItem xs={12} sm={10} md={10}>
               <Card className={classes.cardSignup}>
-                <h2 className={classes.cardTitle}>Register</h2>
+                <h2 className={classes.cardTitle}>Sign Up</h2>
                 <CardBody>
                   <GridContainer justify="center">
                     <GridItem xs={12} sm={5} md={5}>
                       <InfoArea
                         className={classes.infoArea}
-                        title="Marketing"
-                        description="We've created the marketing campaign of the website. It was a very interesting collaboration."
-                        icon={Timeline}
+                        title="Simple"
+                        description="Just download and say the key word to get started."
+                        icon={KeyboardVoiceIcon}
                         iconColor="rose"
                       />
                       <InfoArea
                         className={classes.infoArea}
-                        title="Fully Coded in HTML5"
-                        description="We've developed the website with HTML5 and CSS3. The client has access to the code using GitHub."
-                        icon={Code}
+                        title="Efficient"
+                        description="Don't waste time going through search engines, just say what you want to find and we do the rest."
+                        icon={AccessTimeIcon}
                         iconColor="primary"
                       />
                       <InfoArea
                         className={classes.infoArea}
-                        title="Built Audience"
-                        description="There is also a Fully Customizable CMS Admin Dashboard for this product."
-                        icon={Group}
+                        title="Customizable"
+                        description="Use whatever key words you want."
+                        icon={SettingsIcon}
                         iconColor="info"
                       />
                     </GridItem>
                     <GridItem xs={12} sm={5} md={5}>
-                      <div className={classes.textCenter}>
+                      {/* <div className={classes.textCenter}>
                         <Button justIcon round color="twitter">
                           <i className={classes.socials + " fab fa-twitter"} />
                         </Button>
@@ -115,7 +119,7 @@ export default function SignUpPage({ ...rest }) {
                         </Button>
                         {` `}
                         <h4 className={classes.socialTitle}>or be classical</h4>
-                      </div>
+                      </div> */}
                       <form className={classes.form}>
                         <CustomInput
                           formControlProps={{
@@ -151,7 +155,7 @@ export default function SignUpPage({ ...rest }) {
                             placeholder: "Email...",
                           }}
                         />
-                        <CustomInput
+                        {/* <CustomInput
                           formControlProps={{
                             fullWidth: true,
                             className: classes.customFormControlClasses,
@@ -169,7 +173,7 @@ export default function SignUpPage({ ...rest }) {
                             ),
                             placeholder: "Password...",
                           }}
-                        />
+                        /> */}
                         <FormControlLabel
                           classes={{
                             label: classes.label,
@@ -198,7 +202,7 @@ export default function SignUpPage({ ...rest }) {
                         />
                         <div className={classes.textCenter}>
                           <Button round color="primary">
-                            Get started
+                            Sign Up Now
                           </Button>
                         </div>
                       </form>
@@ -214,33 +218,29 @@ export default function SignUpPage({ ...rest }) {
             <div>
               <div className={classes.left}>
                 <List className={classes.list}>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/?ref=mkpr-signup"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      Creative Tim
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation?ref=mkpr-signup"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
+                  <Link to="/sign-up" className={classes.link}>
+                    <ListItem className={classes.inlineBlock}>
+                      <a target="_blank" className={classes.block}>
+                        Placeholder Name
+                      </a>
+                    </ListItem>
+                  </Link>
+                  <Link to="/about-us">
+                    <ListItem className={classes.inlineBlock}>
+                      <a target="_blank" className={classes.block}>
+                        About us
+                      </a>
+                    </ListItem>
+                  </Link>
+                  {/* <ListItem className={classes.inlineBlock}>
                     <a
                       href="//blog.creative-tim.com/"
                       className={classes.block}
                     >
                       Blog
                     </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
+                  </ListItem> */}
+                  {/* <ListItem className={classes.inlineBlock}>
                     <a
                       href="https://www.creative-tim.com/license?ref=mkpr-signup"
                       target="_blank"
@@ -248,10 +248,10 @@ export default function SignUpPage({ ...rest }) {
                     >
                       Licenses
                     </a>
-                  </ListItem>
+                  </ListItem> */}
                 </List>
               </div>
-              <div className={classes.right}>
+              {/* <div className={classes.right}>
                 &copy; {1900 + new Date().getYear()} , made with{" "}
                 <Favorite className={classes.icon} /> by{" "}
                 <a
@@ -261,7 +261,7 @@ export default function SignUpPage({ ...rest }) {
                   Creative Tim
                 </a>{" "}
                 for a better web.
-              </div>
+              </div> */}
             </div>
           }
         />

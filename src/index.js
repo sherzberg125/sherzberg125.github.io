@@ -22,7 +22,7 @@ import { Router, Route, Switch } from "react-router";
 import "assets/scss/material-kit-pro-react.scss?v=1.10.0";
 
 // pages for this product
-// import AboutUsPage from "views/AboutUsPage/AboutUsPage.js";
+import AboutUsPage from "views/AboutUsPage/AboutUsPage.js";
 // import BlogPostPage from "views/BlogPostPage/BlogPostPage.js";
 // import BlogPostsPage from "views/BlogPostsPage/BlogPostsPage.js";
 // import ComponentsPage from "views/ComponentsPage/ComponentsPage.js";
@@ -44,7 +44,7 @@ var hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      {/* <Route path="/about-us" component={AboutUsPage} /> */}
+      <Route path="/about-us" component={AboutUsPage} />
       {/* <Route path="/blog-post" component={BlogPostPage} /> */}
       {/* <Route path="/blog-posts" component={BlogPostsPage} /> */}
       {/* <Route path="/components" component={ComponentsPage} /> */}
@@ -66,3 +66,5 @@ ReactDOM.render(
 );
 
 //Presentation Page is Decent
+
+//index.html in public to change tab name on top

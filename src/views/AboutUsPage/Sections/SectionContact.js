@@ -32,10 +32,10 @@ export default function SectionContact() {
           className={classNames(classes.mrAuto, classes.mlAuto)}
         >
           <h2 className={classNames(classes.title, classes.textCenter)}>
-            Want to work with us?
+            Want to know more?
           </h2>
           <h4 className={classNames(classes.description, classes.textCenter)}>
-            Let us know what you want to do!
+            Contact us with any questions!
           </h4>
           <form>
             <GridContainer>
@@ -93,7 +93,7 @@ export default function SectionContact() {
                       }}
                       value="1"
                     >
-                      I{"'"}m a Designer
+                      I{"'"}m a Student
                     </MenuItem>
                     <MenuItem
                       classes={{
@@ -104,7 +104,7 @@ export default function SectionContact() {
                     >
                       I{"'"}m a Developer
                     </MenuItem>
-                    <MenuItem
+                    {/* <MenuItem
                       classes={{
                         root: classes.selectMenuItem,
                         selected: classes.selectMenuItemSelected,
@@ -112,7 +112,7 @@ export default function SectionContact() {
                       value="3"
                     >
                       I{"'"}m a Hero
-                    </MenuItem>
+                    </MenuItem> */}
                   </Select>
                 </FormControl>
               </GridItem>

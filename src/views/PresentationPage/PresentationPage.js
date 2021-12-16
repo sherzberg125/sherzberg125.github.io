@@ -26,6 +26,8 @@ import SectionOverview from "views/PresentationPage/Sections/SectionOverview.js"
 import SectionPricing from "views/PresentationPage/Sections/SectionPricing.js";
 
 import presentationStyle from "assets/jss/material-kit-pro-react/views/presentationStyle.js";
+import SectionWork from "views/LandingPage/Sections/SectionWork";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(presentationStyle);
 
@@ -76,22 +78,24 @@ export default function PresentationPage() {
         <SectionOverview />
       </div>
       <SectionPricing />
+
+      {/* Where does the section Work Form link to. It doesn't seem to send any messages to anyone as far as I can tell. */}
+      <SectionWork />
+
       <Footer
         theme="white"
         content={
           <div>
-            <div className={classes.left}>
-              <a
-                href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-presentation"
-                target="_blank"
-                className={classes.footerBrand}
-              >
-                Placeholder Name
-              </a>
-            </div>
+            <Link to="/">
+              <div className={classes.left}>
+                <a target="_blank" className={classes.footerBrand}>
+                  Placeholder Name
+                </a>
+              </div>
+            </Link>
             <div className={classes.pullCenter}>
               <List className={classes.list}>
-                <ListItem className={classes.inlineBlock}>
+                {/* <ListItem className={classes.inlineBlock}>
                   <a
                     href="https://www.creative-tim.com/?ref=mkpr-presentation"
                     target="_blank"
@@ -99,22 +103,20 @@ export default function PresentationPage() {
                   >
                     Placeholder Name
                   </a>
-                </ListItem>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="https://www.creative-tim.com/presentation?ref=mkpr-presentation"
-                    target="_blank"
-                    className={classes.block}
-                  >
-                    About us
-                  </a>
-                </ListItem>
+                </ListItem> */}
+                <Link to="/about-us" className={classes.block}>
+                  <ListItem className={classes.inlineBlock}>
+                    <a target="_blank" className={classes.block}>
+                      About us
+                    </a>
+                  </ListItem>
+                </Link>
                 {/* <ListItem className={classes.inlineBlock}>
                   <a href="//blog.creative-tim.com/" className={classes.block}>
                     Blog
                   </a>
                 </ListItem> */}
-                <ListItem className={classes.inlineBlock}>
+                {/* <ListItem className={classes.inlineBlock}>
                   <a
                     href="https://www.creative-tim.com/license?ref=mkpr-presentation"
                     target="_blank"
@@ -122,7 +124,7 @@ export default function PresentationPage() {
                   >
                     Licenses
                   </a>
-                </ListItem>
+                </ListItem> */}
               </List>
             </div>
             {/* <div className={classes.rightLinks}>
