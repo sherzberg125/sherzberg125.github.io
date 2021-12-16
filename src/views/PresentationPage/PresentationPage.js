@@ -38,7 +38,7 @@ export default function PresentationPage() {
   return (
     <div>
       <Header
-        brand="Company Name (Still in Progress)"
+        brand="Placeholder Name"
         links={<HeaderLinks dropdownHoverColor="info" />}
         fixed
         color="transparent"
@@ -56,7 +56,7 @@ export default function PresentationPage() {
             <GridItem>
               <div className={classes.brand}>
                 <h1>
-                  Company Name
+                  Placeholder Name
                   {/* <span className={classes.proBadge}>PRO</span> */}
                 </h1>
                 <h3 className={classes.title}>A Product For you</h3>
@@ -86,7 +86,7 @@ export default function PresentationPage() {
                 target="_blank"
                 className={classes.footerBrand}
               >
-                Company Name
+                Placeholder Name
               </a>
             </div>
             <div className={classes.pullCenter}>
@@ -97,7 +97,7 @@ export default function PresentationPage() {
                     target="_blank"
                     className={classes.block}
                   >
-                    Creative Tim
+                    Placeholder Name
                   </a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
@@ -125,7 +125,7 @@ export default function PresentationPage() {
                 </ListItem>
               </List>
             </div>
-            <div className={classes.rightLinks}>
+            {/* <div className={classes.rightLinks}>
               <ul>
                 <li>
                   <Button
@@ -161,7 +161,7 @@ export default function PresentationPage() {
                   </Button>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         }
       />
