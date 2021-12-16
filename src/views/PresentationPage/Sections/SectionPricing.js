@@ -13,6 +13,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
 import pricingStyle from "assets/jss/material-kit-pro-react/views/presentationSections/pricingStyle.js";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(pricingStyle);
 
@@ -30,14 +31,11 @@ export default function SectionPricing() {
             <h2 className={classes.title}>
               Sign up for NAME HERE to get new info
             </h2>
-            <Button
-              href="https://sherzberg125.github.io/signup-page"
-              color={"primary"}
-              target="_blank"
-              round
-            >
-              <ArticleIcon className={classes.icons} /> Sign Up Now
-            </Button>{" "}
+            <Link to="/signup">
+              <Button color={"primary"} target="_blank" round>
+                <ArticleIcon className={classes.icons} /> Sign Up Now
+              </Button>{" "}
+            </Link>
             {/* <Button
               href="https://www.creative-tim.com/product/material-kit-react?ref=mkpr-presentation"
               color={"white"}
