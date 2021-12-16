@@ -34,7 +34,7 @@ export default function SectionPricing() {
             <Link to="/signup">
               <Button color={"primary"} target="_blank" round>
                 <ArticleIcon className={classes.icons} /> Sign Up Now
-              </Button>{" "}
+              </Button>
             </Link>
             {/* <Button
               href="https://www.creative-tim.com/product/material-kit-react?ref=mkpr-presentation"
