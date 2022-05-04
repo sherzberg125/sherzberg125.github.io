@@ -29,7 +29,7 @@ export default function SectionPricing() {
             className={classNames(classes.mlAuto, classes.mrAuto)}
           >
             <h2 className={classes.title}>
-              Sign up for NAME HERE to get new info
+              Sign up for VSN Drones to get new info
             </h2>
             <Link to="/signup">
               <Button color={"primary"} target="_blank" round>

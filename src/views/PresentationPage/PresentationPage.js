@@ -40,7 +40,7 @@ export default function PresentationPage() {
   return (
     <div>
       <Header
-        brand="Placeholder Name"
+        brand="VSN Drones"
         links={<HeaderLinks dropdownHoverColor="info" />}
         fixed
         color="transparent"
@@ -61,7 +61,7 @@ export default function PresentationPage() {
                   Placeholder Name
                   {/* <span className={classes.proBadge}>PRO</span> */}
                 </h1>
-                <h3 className={classes.title}>A Product For you</h3>
+                <h3 className={classes.title}>Facial Recognition in Drones</h3>
               </div>
             </GridItem>
           </GridContainer>
@@ -89,7 +89,7 @@ export default function PresentationPage() {
             <Link to="/">
               <div className={classes.left}>
                 <a target="_blank" className={classes.footerBrand}>
-                  Placeholder Name
+                  VSN Drones
                 </a>
               </div>
             </Link>

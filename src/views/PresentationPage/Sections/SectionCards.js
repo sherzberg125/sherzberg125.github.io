@@ -33,8 +33,11 @@ export default function SectionCards() {
               <h5 className={classes.description}>
                 A background tool to help you.
               </h5> */}
-              <h3 className={classes.title}> Searching the Web Sucks</h3>
-              <h6 className={classes.description}> Lets Make it Better</h6>
+              <h3 className={classes.title}> Aerial Facial Recognition</h3>
+              <h6 className={classes.description}>
+                {" "}
+                Working on making facial recognition in drones a thing.
+              </h6>
             </div>
           </GridItem>
         </GridContainer>

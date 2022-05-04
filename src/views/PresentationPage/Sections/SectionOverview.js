@@ -27,6 +27,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // import profilePic3 from "assets/img/assets-for-demo/test3.jpg";
 
 import overviewStyle from "assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle.js";
+import LocalShipping from "@material-ui/icons/LocalShipping";
 
 const useStyles = makeStyles(overviewStyle);
 
@@ -43,7 +44,7 @@ export default function SectionOverview() {
         }}
       >
         <GridItem md={8} className={classNames(classes.mlAuto, classes.mrAuto)}>
-          <h2 className={classes.title}>Your work will get much easier</h2>
+          <h2 className={classes.title}>Helping In Many Aspects </h2>
         </GridItem>
         <div className={classes.container}>
           <GridContainer justify="center">
@@ -52,11 +53,10 @@ export default function SectionOverview() {
                 title="Voice Activated"
                 description={
                   <p>
-                    You don{"'"}t have to type a single letter to start
-                    searching
+                    Safer Delivery. <br />
                   </p>
                 }
-                icon={KeyboardVoiceIcon}
+                icon={LocalShipping}
                 // Icon is smaller for some reason and I don't know why
                 iconColor="gray"
                 vertical={true}
@@ -73,9 +73,13 @@ export default function SectionOverview() {
             </GridItem> */}
             <GridItem sm={3} className={classes.featuresShow}>
               <InfoArea
-                title="Save Time"
+                title="Worry Free"
                 description={
-                  <p>Recieve an answer in seconds, no waiting for anything</p>
+                  <p>
+                    You do not have to worry about someone stealing or
+                    interacting with any of your packages since every package
+                    will be dropped directly to you{" "}
+                  </p>
                 }
                 icon={AccessTime}
                 iconColor="gray"
@@ -84,12 +88,11 @@ export default function SectionOverview() {
             </GridItem>
             <GridItem sm={3} className={classes.featuresShow}>
               <InfoArea
-                title="Save Money"
+                title="Faster"
                 description={
                   <p>
-                    Time is money. We save you money by reducing the amount of
-                    time you spend on filtering through the internet searching
-                    for answers
+                    Depending on the item, delivery time can be much less than
+                    if shipped through more traditional methods
                   </p>
                 }
                 icon={AttachMoney}
