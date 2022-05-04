@@ -36,7 +36,7 @@ export default function AboutUsPage() {
   return (
     <div>
       <Header
-        brand="Placeholder Name"
+        brand="VSN Drones"
         links={<HeaderLinks dropdownHoverColor="info" />}
         fixed
         color="transparent"
@@ -46,7 +46,7 @@ export default function AboutUsPage() {
         }}
       />
       <Parallax
-        image={require("assets/img/bg9.jpg").default}
+        image={require("assets/img/dronebg.jpg").default}
         filter="dark"
         small
       >
@@ -87,7 +87,7 @@ export default function AboutUsPage() {
                 <Link to="/">
                   <ListItem className={classes.inlineBlock}>
                     <a className={classes.block} target="_blank">
-                      Placeholder Name
+                      VSN Drones
                     </a>
                   </ListItem>
                 </Link>
