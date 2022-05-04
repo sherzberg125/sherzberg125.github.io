@@ -30,11 +30,13 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
+import MonitorHeartIcon from "@material-ui/icons/MonitorHeart";
 
 import signupPageStyle from "assets/jss/material-kit-pro-react/views/signupPageStyle.js";
 
 import image from "assets/img/bg7.jpg";
 import { Link } from "react-router-dom";
+import AccessTime from "@material-ui/icons/AccessTime";
 
 const useStyles = makeStyles(signupPageStyle);
 
@@ -60,8 +62,8 @@ export default function SignUpPage({ ...rest }) {
       <Header
         absolute
         color="transparent"
-        brand="Placeholder Name" // CHANGE NAME HERE
-        links={<HeaderLinks dropdownHoverColor="rose" />}
+        brand="VSN Drones" // CHANGE NAME HERE
+        links={<HeaderLinks dropdownHoverColor="gray" />}
         {...rest}
       />
       <div
@@ -83,22 +85,25 @@ export default function SignUpPage({ ...rest }) {
                       <InfoArea
                         className={classes.infoArea}
                         title="Simple"
-                        description="Just download and say the key word to get started."
-                        icon={KeyboardVoiceIcon}
-                        iconColor="rose"
+                        description="Just order and your package will be delivered directly to you by drone."
+                        icon={LocalShipping}
+                        iconColor="red"
                       />
                       <InfoArea
                         className={classes.infoArea}
-                        title="Efficient"
-                        description="Don't waste time going through search engines, just say what you want to find and we do the rest."
-                        icon={AccessTimeIcon}
+                        title="Worry-free"
+                        description="You do not have to worry about someone stealing or
+                        interacting with any of your packages since every package
+                        will be dropped directly to you"
+                        icon={MonitorHeartIcon}
                         iconColor="primary"
                       />
                       <InfoArea
                         className={classes.infoArea}
-                        title="Customizable"
-                        description="Use whatever key words you want."
-                        icon={SettingsIcon}
+                        title="Efficient"
+                        description="Depending on the item, delivery time can be much less than
+                        if shipped through more traditional methods"
+                        icon={AccessTime}
                         iconColor="info"
                       />
                     </GridItem>
@@ -221,7 +226,7 @@ export default function SignUpPage({ ...rest }) {
                   <Link to="/sign-up" className={classes.link}>
                     <ListItem className={classes.inlineBlock}>
                       <a target="_blank" className={classes.block}>
-                        Placeholder Name
+                        VSN Drones
                       </a>
                     </ListItem>
                   </Link>

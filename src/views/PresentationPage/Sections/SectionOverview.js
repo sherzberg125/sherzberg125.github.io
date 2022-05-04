@@ -12,8 +12,8 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 // import Grid from "@material-ui/icons/GridOn";
 // import PhoneLink from "@material-ui/icons/Phonelink";
 import AccessTime from "@material-ui/icons/AccessTime";
-import AttachMoney from "@material-ui/icons/AttachMoney";
-import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
+// import AttachMoney from "@material-ui/icons/AttachMoney";
+// import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -28,6 +28,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import overviewStyle from "assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle.js";
 import LocalShipping from "@material-ui/icons/LocalShipping";
+import MonitorHeartIcon from "@material-ui/icons/MonitorHeart";
 
 const useStyles = makeStyles(overviewStyle);
 
@@ -50,10 +51,11 @@ export default function SectionOverview() {
           <GridContainer justify="center">
             <GridItem sm={3} className={classes.featuresShow}>
               <InfoArea
-                title="Voice Activated"
+                title="Simple"
                 description={
                   <p>
-                    Safer Delivery. <br />
+                    Just order and your package will be delivered directly to
+                    you by drone. <br />
                   </p>
                 }
                 icon={LocalShipping}
@@ -81,7 +83,7 @@ export default function SectionOverview() {
                     will be dropped directly to you{" "}
                   </p>
                 }
-                icon={AccessTime}
+                icon={MonitorHeartIcon}
                 iconColor="gray"
                 vertical={true}
               />
@@ -95,7 +97,7 @@ export default function SectionOverview() {
                     if shipped through more traditional methods
                   </p>
                 }
-                icon={AttachMoney}
+                icon={AccessTime}
                 iconColor="gray"
                 vertical={true}
               />
