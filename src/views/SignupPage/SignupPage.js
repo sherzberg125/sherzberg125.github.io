@@ -30,7 +30,7 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
-import MonitorHeartIcon from "@material-ui/icons/MonitorHeart";
+import MonitorHeartIcon from "@mui/icons-material/MonitorHeart";
 
 import signupPageStyle from "assets/jss/material-kit-pro-react/views/signupPageStyle.js";
 

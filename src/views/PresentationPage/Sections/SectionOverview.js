@@ -28,7 +28,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import overviewStyle from "assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle.js";
 import LocalShipping from "@material-ui/icons/LocalShipping";
-import MonitorHeartIcon from "@material-ui/icons/MonitorHeart";
+import MonitorHeartIcon from "@mui/icons-material/MonitorHeart";
 
 const useStyles = makeStyles(overviewStyle);
 
