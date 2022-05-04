@@ -36,7 +36,7 @@ export default function SectionCards() {
               <h3 className={classes.title}> Aerial Facial Recognition</h3>
               <h6 className={classes.description}>
                 {" "}
-                Working on making facial recognition in drones a thing.
+                Making facial recognition in drones a thing.
               </h6>
             </div>
           </GridItem>
