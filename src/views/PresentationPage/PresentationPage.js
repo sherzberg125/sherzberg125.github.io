@@ -101,7 +101,7 @@ export default function PresentationPage() {
                     target="_blank"
                     className={classes.block}
                   >
-                    Placeholder Name
+                    VSN Drones
                   </a>
                 </ListItem> */}
                 <Link to="/about-us" className={classes.block}>

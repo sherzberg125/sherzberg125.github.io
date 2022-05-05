@@ -125,7 +125,7 @@ export default function AboutUsPage() {
                 href="https://www.creative-tim.com?ref=mkpr-about-us"
                 target="_blank"
               >
-                Placeholder Name
+                VSN Drones
               </a>{" "}
               Helping you save time
             </div> */}
