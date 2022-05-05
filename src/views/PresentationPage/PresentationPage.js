@@ -173,6 +173,17 @@ export default function PresentationPage() {
                     <i className="fab fa-linkedin" />
                   </Button>
                 </li>
+                <li>
+                  <Button
+                    href="https://medium.com/@sherzberg125"
+                    target="_blank"
+                    color="medium"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-medium" />
+                  </Button>
+                </li>
               </ul>
             </div>
           </div>
