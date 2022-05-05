@@ -36,14 +36,14 @@ export default function SectionPricing() {
                 <ArticleIcon className={classes.icons} /> Sign Up Now
               </Button>
             </Link>
-            <Button
+            {/* <Button
               href="sherzberg.com/signup"
               color={"white"}
               target="_blank"
               round
             >
-              {/* <Store className={classes.icons} /> Check Free Demo */}
-            </Button>
+              <Store className={classes.icons} /> Check Free Demo 
+            </Button> */}
           </GridItem>
           <div className={classes.socialLine}>
             <div className={classes.container}>
