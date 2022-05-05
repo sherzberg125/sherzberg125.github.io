@@ -127,11 +127,11 @@ export default function PresentationPage() {
                 </ListItem> */}
               </List>
             </div>
-            {/* <div className={classes.rightLinks}>
+            <div className={classes.rightLinks}>
               <ul>
                 <li>
                   <Button
-                    href="https://twitter.com/CreativeTim?ref=creativetim"
+                    href="https://twitter.com/VSNDrones"
                     target="_blank"
                     color="twitter"
                     justIcon
@@ -142,18 +142,18 @@ export default function PresentationPage() {
                 </li>
                 <li>
                   <Button
-                    href="https://dribbble.com/creativetim?ref=creativetim"
+                    href="https://www.linkedin.com/in/vsn-drones-b88a03239/"
                     target="_blank"
-                    color="dribbble"
+                    color="linkedIn"
                     justIcon
                     simple
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-linkedIn" />
                   </Button>
                 </li>
                 <li>
                   <Button
-                    href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                    href="https://www.instagram.com/vsndrones/"
                     target="_blank"
                     color="instagram"
                     justIcon
@@ -162,8 +162,19 @@ export default function PresentationPage() {
                     <i className="fab fa-instagram" />
                   </Button>
                 </li>
+                <li>
+                  <Button
+                    href="https://www.facebook.com/profile.php?id=100080998720486"
+                    target="_blank"
+                    color="facebook"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-facebook" />
+                  </Button>
+                </li>
               </ul>
-            </div> */}
+            </div>
           </div>
         }
       />
