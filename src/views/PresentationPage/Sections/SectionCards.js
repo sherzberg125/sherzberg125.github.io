@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import cardsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/cardsStyle.js";
 
-import facialRecognitionPic from "assets/img/facialrecognitionresized.png";
+import facialRecognitionPic from "assets/img/facialrecognition.png";
 // src = https://www.accesspartnership.com/facial-recognition-technology-a-primer/
 
 const useStyles = makeStyles(cardsStyle);
