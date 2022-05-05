@@ -23,7 +23,6 @@ export default function SectionCards() {
           <GridItem md={7} sm={4}>
             <div className={classes.imageContainer}>
               <img
-                height="75%"
                 src={facialRecognitionPic}
                 alt="Facial recognition picture"
               />
