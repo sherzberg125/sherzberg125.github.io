@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import cardsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/cardsStyle.js";
 
-import cardsTest from "assets/img/facialrecognitionresized.png";
+import facialRecognitionPic from "assets/img/facialrecognitionresized.png";
 // src = https://www.accesspartnership.com/facial-recognition-technology-a-primer/
 
 const useStyles = makeStyles(cardsStyle);
@@ -22,7 +22,10 @@ export default function SectionCards() {
         <GridContainer justify="center">
           <GridItem md={7} sm={4}>
             <div className={classes.imageContainer}>
-              <img src={cardsTest} alt="Facial recognition picture" />
+              <img
+                src={facialRecognitionPic}
+                alt="Facial recognition picture"
+              />
             </div>
           </GridItem>
           <GridItem md={4} sm={5} className={classes.mlAuto}>
