@@ -47,7 +47,7 @@ export default function SectionPricing() {
           </GridItem>
           <div className={classes.socialLine}>
             <div className={classes.container}>
-              <GridContainer>
+              {/* <GridContainer>
                 <GridItem md={12}>
                   <h4 className={classes.title}>Thank you for sharing!</h4>
                   <Button color="twitter" href="#pablo" round>
@@ -63,7 +63,7 @@ export default function SectionPricing() {
                     Google
                   </Button>
                 </GridItem>
-              </GridContainer>
+              </GridContainer> */}
             </div>
           </div>
         </GridContainer>
