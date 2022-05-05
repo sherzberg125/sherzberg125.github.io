@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9a526d82.chunk.css",
-    "main.js": "/static/js/main.bb8a471f.chunk.js",
-    "main.js.map": "/static/js/main.bb8a471f.chunk.js.map",
+    "main.js": "/static/js/main.8aa42527.chunk.js",
+    "main.js.map": "/static/js/main.8aa42527.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd0067c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd0067c1.js.map",
     "static/js/2.dc51d7d9.chunk.js": "/static/js/2.dc51d7d9.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.9a526d82.chunk.css.map": "/static/css/main.9a526d82.chunk.css.map",
     "static/js/2.dc51d7d9.chunk.js.LICENSE.txt": "/static/js/2.dc51d7d9.chunk.js.LICENSE.txt",
-    "static/js/main.bb8a471f.chunk.js.LICENSE.txt": "/static/js/main.bb8a471f.chunk.js.LICENSE.txt",
+    "static/js/main.8aa42527.chunk.js.LICENSE.txt": "/static/js/main.8aa42527.chunk.js.LICENSE.txt",
     "static/media/avatar.df87bd57.jpg": "/static/media/avatar.df87bd57.jpg",
     "static/media/bg11.a4cc293b.jpg": "/static/media/bg11.a4cc293b.jpg",
     "static/media/bg12.0eaa224b.jpg": "/static/media/bg12.0eaa224b.jpg",
@@ -45,7 +45,6 @@
     "static/media/card-project4.2c20acb1.jpg": "/static/media/card-project4.2c20acb1.jpg",
     "static/media/card-project5.672efa16.jpg": "/static/media/card-project5.672efa16.jpg",
     "static/media/card-project6.8ecd9660.jpg": "/static/media/card-project6.8ecd9660.jpg",
-    "static/media/cards-test.fa4cc479.png": "/static/media/cards-test.fa4cc479.png",
     "static/media/christian.3dc80c1d.jpg": "/static/media/christian.3dc80c1d.jpg",
     "static/media/city.jpg": "/static/media/city.4d64bba9.jpg",
     "static/media/clark-street-merc.jpg": "/static/media/clark-street-merc.691225ca.jpg",
@@ -64,6 +63,7 @@
     "static/media/dg9.ebcc5794.jpg": "/static/media/dg9.ebcc5794.jpg",
     "static/media/dolce.6aff59a3.jpg": "/static/media/dolce.6aff59a3.jpg",
     "static/media/ecommerce-header.bb56b4f1.jpg": "/static/media/ecommerce-header.bb56b4f1.jpg",
+    "static/media/facialrecognition.fa9d5e1a.png": "/static/media/facialrecognition.fa9d5e1a.png",
     "static/media/features-5.jpg": "/static/media/features-5.ccf7d111.jpg",
     "static/media/gucci.2911723c.jpg": "/static/media/gucci.2911723c.jpg",
     "static/media/iphone.4f21d5be.png": "/static/media/iphone.4f21d5be.png",
@@ -92,6 +92,6 @@
     "static/js/runtime-main.dd0067c1.js",
     "static/js/2.dc51d7d9.chunk.js",
     "static/css/main.9a526d82.chunk.css",
-    "static/js/main.bb8a471f.chunk.js"
+    "static/js/main.8aa42527.chunk.js"
   ]
 }
