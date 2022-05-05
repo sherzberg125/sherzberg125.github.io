@@ -45,7 +45,7 @@ export default function SectionPricing() {
               {/* <Store className={classes.icons} /> Check Free Demo */}
             </Button>
           </GridItem>
-          {/* <div className={classes.socialLine}>
+          <div className={classes.socialLine}>
             <div className={classes.container}>
               <GridContainer>
                 <GridItem md={12}>
@@ -65,7 +65,7 @@ export default function SectionPricing() {
                 </GridItem>
               </GridContainer>
             </div>
-          </div> */}
+          </div>
         </GridContainer>
       </div>
     </div>
