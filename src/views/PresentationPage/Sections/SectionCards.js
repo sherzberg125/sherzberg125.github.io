@@ -20,7 +20,7 @@ export default function SectionCards() {
     <div className={classNames(classes.section, classes.sectionDark)}>
       <div className={classes.container}>
         <GridContainer justify="center">
-          <GridItem md={7} sm={7}>
+          <GridItem md={4} sm={3}>
             <div className={classes.imageContainer}>
               <img src={cardsTest} alt="Facial recognition picture" />
             </div>
