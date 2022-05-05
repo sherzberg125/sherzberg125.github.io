@@ -58,7 +58,7 @@ export default function PresentationPage() {
             <GridItem>
               <div className={classes.brand}>
                 <h1>
-                  Placeholder Name
+                  VSN Drones
                   {/* <span className={classes.proBadge}>PRO</span> */}
                 </h1>
                 <h3 className={classes.title}>Facial Recognition in Drones</h3>
