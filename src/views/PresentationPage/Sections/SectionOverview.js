@@ -80,7 +80,7 @@ export default function SectionOverview() {
                   <p>
                     You do not have to worry about someone stealing or
                     interacting with any of your packages since every package
-                    will be dropped directly to you{" "}
+                    will be dropped directly to you
                   </p>
                 }
                 icon={MonitorHeartIcon}

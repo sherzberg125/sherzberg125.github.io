@@ -142,17 +142,6 @@ export default function PresentationPage() {
                 </li>
                 <li>
                   <Button
-                    href="https://www.linkedin.com/in/vsn-drones-b88a03239/"
-                    target="_blank"
-                    color="linkedIn"
-                    justIcon
-                    simple
-                  >
-                    <i className="fab fa-linkedIn" />
-                  </Button>
-                </li>
-                <li>
-                  <Button
                     href="https://www.instagram.com/vsndrones/"
                     target="_blank"
                     color="instagram"
@@ -171,6 +160,17 @@ export default function PresentationPage() {
                     simple
                   >
                     <i className="fab fa-facebook" />
+                  </Button>
+                </li>
+                <li>
+                  <Button
+                    href="https://www.linkedin.com/in/vsn-drones-b88a03239/"
+                    target="_blank"
+                    color="linkedin"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-linkedin" />
                   </Button>
                 </li>
               </ul>
